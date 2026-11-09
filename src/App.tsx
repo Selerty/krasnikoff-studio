@@ -307,7 +307,7 @@ function Footer() {
           <span>ИНН 636702176058 · ОГРНИП 325632700139102 от 29.08.2025 · Самарская область</span>
           <span>Основной ОКВЭД 63.11.1 · Дополнительные ОКВЭД 62.01, 62.02, 62.09</span>
         </div>
-        <a className="footer-agents-link" href="/llms.txt"><Bot size={17} strokeWidth={1.8} aria-hidden="true"/><span>Агентам сюда</span></a>
+        <a className="footer-agents-link" href="/llms.txt"><Bot size={16} strokeWidth={1.8} aria-hidden="true"/><span>Агентам сюда</span></a>
       </div>
     </footer>
   );

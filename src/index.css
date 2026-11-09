@@ -105,7 +105,8 @@ h1, h2, h3 { font-family: Onest, Manrope, sans-serif; }
 .footer-legal { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 8px 24px; margin-top: 20px; border-top: 1px solid rgba(255,255,255,.1); padding-top: 14px; color: rgba(255,255,255,.48); font-size: 11px; line-height: 1.5; }
 .footer-legal-copy { display: grid; gap: 5px; }
 .footer-legal strong { color: rgba(255,255,255,.68); font-weight: 600; }
-.footer-agents-link { display: inline-flex; align-items: center; justify-self: end; gap: 8px; color: rgba(164,244,253,.76); text-decoration: none; text-underline-offset: 3px; transition: color .2s ease; }
+.footer-agents-link { display: inline-flex; align-items: center; justify-self: end; gap: 5px; color: rgba(255,255,255,.68); font-size: 11px; line-height: 1.5; text-decoration: none; text-underline-offset: 3px; transition: color .2s ease; }
+.footer-agents-link svg { display: block; flex: 0 0 16px; }
 .footer-agents-link:hover { color: #fff; }
 .footer-agents-link:focus-visible { border-radius: 3px; outline: 2px solid #a4f4fd; outline-offset: 4px; color: #fff; }
 
