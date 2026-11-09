@@ -120,7 +120,8 @@ function Hero() {
   const reduce = useReducedMotion();
   return (
     <section id="top" className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-6 pb-16 pt-16 text-center md:pb-20 md:pt-28">
-      <motion.h1 className="hero-title text-[2.625rem] leading-[.94] tracking-tight md:text-[5.5rem]"
+      <h1 className="mb-6 text-sm font-medium tracking-wide text-white/75 md:mb-7 md:text-base">Разработка сайтов для компаний</h1>
+      <motion.div className="hero-title text-[2.625rem] leading-[.94] tracking-tight md:text-[5.5rem]"
         initial={reduce ? false : { opacity: 0, y: 25, filter: 'blur(10px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0)' }} transition={{ delay: reduce ? 0 : .3, duration: reduce ? 0 : .8, ease: [.22, 1, .36, 1] }}>
         <span className="block">Твой сайт.</span>
         <motion.span className="hero-accent block"
@@ -129,7 +130,7 @@ function Hero() {
           transition={{ delay: reduce ? 0 : .62, duration: reduce ? 0 : .75, ease: [.22, 1, .36, 1] }}>
           Готов к работе.
         </motion.span>
-      </motion.h1>
+      </motion.div>
       <motion.p className="mt-8 max-w-md text-base leading-[1.5] text-white/80"
         initial={reduce ? false : { opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: reduce ? 0 : .5, duration: reduce ? 0 : .65 }}>
         Разрабатываем сайты для компаний: лендинги, сайты услуг, каталоги и интернет-магазины.
