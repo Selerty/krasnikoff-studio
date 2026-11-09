@@ -132,7 +132,7 @@ function Hero() {
       </motion.h1>
       <motion.p className="mt-8 max-w-md text-base leading-[1.5] text-white/80"
         initial={reduce ? false : { opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: reduce ? 0 : .5, duration: reduce ? 0 : .65 }}>
-        Помогаем компаниям рассказать о себе и своих услугах в интернете.
+        Разрабатываем сайты для компаний: лендинги, сайты услуг, каталоги и интернет-магазины.
       </motion.p>
       <motion.div className="mt-7 flex flex-col items-center gap-4"
         initial={reduce ? false : { opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: reduce ? 0 : .7, duration: reduce ? 0 : .6 }}>
@@ -188,9 +188,9 @@ function ConceptShowcase() {
       <Reveal className="mb-10 flex flex-col gap-5 md:mb-12 md:flex-row md:items-end md:justify-between">
         <div>
           <SectionEyebrow label="Примеры дизайна" />
-          <h2 className="mt-5 max-w-2xl text-3xl font-semibold tracking-tight md:text-5xl">Как может выглядеть ваш сайт</h2>
+          <h2 className="mt-5 max-w-2xl text-3xl font-semibold tracking-tight md:text-5xl">Примеры дизайна сайтов для разных сфер</h2>
         </div>
-        <p className="max-w-sm text-sm leading-relaxed text-white/65">Клиника — светлая сетка с записью. Ресторан — тёмное фото и меню. Студия интерьеров — тёплая редакционная вёрстка.</p>
+        <p className="max-w-sm text-sm leading-relaxed text-white/65">Три направления: медицинский сайт, страница ресторана с меню и портфолио интерьерной студии.</p>
       </Reveal>
       <div className="grid gap-5 md:grid-cols-3">
         {demoConcepts.map((concept, index) => <Reveal key={concept.theme} delay={index * .08}>
@@ -223,7 +223,7 @@ function ProjectProcess() {
       <Reveal className="mb-10 md:mb-12">
         <SectionEyebrow label="Процесс" />
         <div className="mt-5 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-          <h2 className="max-w-2xl text-3xl font-semibold tracking-tight md:text-5xl">От обсуждения до запуска.</h2>
+          <h2 className="max-w-2xl text-3xl font-semibold tracking-tight md:text-5xl">Как проходит разработка сайта</h2>
         </div>
       </Reveal>
       <div className="process-grid">
@@ -255,7 +255,7 @@ function Pricing() {
     <section id="pricing" className="c3-pricing-section relative z-10">
       <Reveal className="pricing-heading">
         <SectionEyebrow label="Форматы и стоимость" />
-        <h2 className="mt-5 text-3xl font-semibold tracking-tight md:text-5xl">Выберите формат проекта.</h2>
+        <h2 className="mt-5 text-3xl font-semibold tracking-tight md:text-5xl">Стоимость разработки сайта</h2>
       </Reveal>
       <div className="c3-grid">
         {plans.map((plan, index) => <Reveal key={plan.tier} delay={index * .07} className="min-w-0">
@@ -281,7 +281,7 @@ function FinalCTA() {
         <div className="cta-glow" aria-hidden="true" />
         <div className="relative z-[1]">
           <h2 className="text-4xl font-semibold leading-[1.02] tracking-tight md:text-6xl">Создадим сайт<br/>для вашей компании.</h2>
-          <p className="mx-auto mt-6 max-w-md text-sm leading-[1.6] text-white/65">Расскажите, чем занимается компания и какие услуги или товары нужно представить. Обсудим структуру, дизайн и стоимость сайта.</p>
+          <p className="mx-auto mt-6 max-w-md text-sm leading-[1.6] text-white/65">Расскажите, какие услуги или товары нужно представить. Обсудим структуру, дизайн и состав работ.</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row"><ContactButton label="Написать студии"/><a href="#pricing" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm font-medium text-white transition hover:bg-white/5">Посмотреть стоимость<ChevronRight size={16}/></a></div>
         </div>
       </Reveal>
