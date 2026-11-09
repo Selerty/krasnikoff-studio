@@ -19,8 +19,8 @@ a { text-underline-offset: 3px; }
 .ambient-glow { position: absolute; inset: -12% 5% auto; height: 58vh; background: radial-gradient(ellipse at 50% 40%, rgba(22,53,89,.36), transparent 70%); }
 .hero-title { font-family: Onest, Manrope, sans-serif; font-weight: 700; letter-spacing: -.035em; text-wrap: balance; }
 h1, h2, h3 { font-family: Onest, Manrope, sans-serif; }
-.hero-accent { color: #a4f4fd; background-image: linear-gradient(105deg,#a4f4fd 0%,#a4f4fd 35%,#effeff 48%,#fff 52%,#a4f4fd 65%,#a4f4fd 100%); background-size: 220% 100%; background-position: 100% 0; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hero-gradient-run 4.8s linear infinite; }
-@keyframes hero-gradient-run { from { background-position: 100% 0; } to { background-position: -120% 0; } }
+.hero-accent { width: fit-content; max-width: 100%; margin-inline: auto; color: #a4f4fd; background-image: linear-gradient(105deg,#a4f4fd 0%,#a4f4fd 35%,#effeff 48%,#fff 52%,#a4f4fd 65%,#a4f4fd 100%); background-size: 220% 100%; background-position: 100% 0; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hero-gradient-run 4.8s ease-in-out infinite alternate; }
+@keyframes hero-gradient-run { from { background-position: 100% 0; } to { background-position: 0 0; } }
 .hero-secondary-link { display: inline-flex; align-items: center; gap: 5px; color: rgba(255,255,255,.78); font-size: 12px; transition: color .2s ease; }
 .hero-secondary-link:hover { color: #fff; }
 
