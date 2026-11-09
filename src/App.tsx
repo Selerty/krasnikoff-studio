@@ -1,11 +1,11 @@
 import { useState, type ReactNode } from 'react';
 import {
-  ArrowUpRight, Check, ChevronRight, ClipboardList, Code2, FileText, Info, Mail,
+  ArrowUpRight, Bot, Check, ChevronRight, ClipboardList, Code2, FileText, Info, Mail,
   Menu, MessageCircle, Palette, Rocket, Send, ListChecks, X,
 } from 'lucide-react';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 
-const VIDEO_URL = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_064122_c4750c0e-7476-4b44-94a2-a85a65c63bf2.mp4';
+const VIDEO_URL = '/hero-background.mp4';
 const CONTACT_EMAIL = 'krasnikoff.ru@gmail.com';
 const CONTACT_LINK = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Обсудить сайт')}`;
 const MAX_LINK = 'https://max.ru/u/f9LHodD0cOKYn3sb0GAoQTd--MI4H0hQ55egGH0wOC8WfQXqUuriwAdCihs';
@@ -302,10 +302,12 @@ function Footer() {
         </div>
       </div>
       <div className="footer-legal">
-        <strong>Индивидуальный предприниматель Красников Павел Евгеньевич</strong>
-        <span>ИНН 636702176058 · ОГРНИП 325632700139102 от 29.08.2025 · Самарская область</span>
-        <span>Основной ОКВЭД 63.11.1 · Дополнительные ОКВЭД 62.01, 62.02, 62.09</span>
-        <a className="footer-agents-link" href="/llms.txt">Агентам сюда</a>
+        <div className="footer-legal-copy">
+          <strong>Индивидуальный предприниматель Красников Павел Евгеньевич</strong>
+          <span>ИНН 636702176058 · ОГРНИП 325632700139102 от 29.08.2025 · Самарская область</span>
+          <span>Основной ОКВЭД 63.11.1 · Дополнительные ОКВЭД 62.01, 62.02, 62.09</span>
+        </div>
+        <a className="footer-agents-link" href="/llms.txt"><Bot size={17} strokeWidth={1.8} aria-hidden="true"/><span>Агентам сюда</span></a>
       </div>
     </footer>
   );
@@ -316,11 +318,13 @@ export default function App() {
     <div className="relative min-h-screen overflow-x-clip bg-[#0c0c0c] text-white selection:bg-brand/30">
       <Background />
       <Navbar />
-      <Hero />
-      <ConceptShowcase />
-      <ProjectProcess />
-      <Pricing />
-      <FinalCTA />
+      <main>
+        <Hero />
+        <ConceptShowcase />
+        <ProjectProcess />
+        <Pricing />
+        <FinalCTA />
+      </main>
       <Footer />
     </div>
   );
