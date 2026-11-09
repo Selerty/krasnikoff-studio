@@ -1,0 +1,29 @@
+# Krasnikoff Studio
+
+> Krasnikoff Studio designs and develops websites for companies: landing pages, company websites, product catalogs, and online stores.
+
+The site is in Russian. The examples shown are design concepts, not claims about completed client projects.
+
+## Main sections
+
+- [Design examples](https://studio.krasnikoff.ru/#concepts): visual concepts for a clinic, restaurant, and interior studio.
+- [Project process](https://studio.krasnikoff.ru/#process): the stages from discussing the project to launch.
+- [Formats and prices](https://studio.krasnikoff.ru/#pricing): project types and starting prices.
+- [Discuss a project](https://studio.krasnikoff.ru/#closing): contact the studio about a website.
+
+## Services
+
+- Landing page: from 39,900 ₽.
+- Company website, up to five pages: from 69,900 ₽.
+- Product catalog: from 99,000 ₽.
+- Online store: from 149,000 ₽.
+
+The final scope and price depend on the agreed project. Domain, platform plan, and integrations may be charged separately as described on the site.
+
+## Contact
+
+- Email: [krasnikoff.ru@gmail.com](mailto:krasnikoff.ru@gmail.com)
+- Telegram: [t.me/Selerty](https://t.me/Selerty)
+- MAX: [Contact Krasnikoff Studio](https://max.ru/u/f9LHodD0cOKYn3sb0GAoQTd--MI4H0hQ55egGH0wOC8WfQXqUuriwAdCihs)
+
+<!-- llms.txt is an optional, provider-dependent proposal. It does not replace the website's HTML, navigation, or sitemap and does not guarantee search visibility. -->
